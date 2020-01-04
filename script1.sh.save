@@ -1,0 +1,14 @@
+
+echo "Enter a b c"
+read a b c
+if [ $a -gt $b ]
+then
+echo $a is greater than $b
+else if [ $a -gt $c ]
+then
+fi  
+echo $a is gt than $c
+else
+echo $b is greater than $a
+fi
+
